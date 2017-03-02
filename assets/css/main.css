@@ -322,23 +322,63 @@ section.wraper {
   background-position: center;
   background-size: cover; }
   section.wraper .center-content {
-    position: relative !important;
-    top: 500px;
-    background: pink; }
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh; }
     section.wraper .center-content .logo {
+      margin-bottom: 30px;
+      text-align: center;
       width: 450px; }
     section.wraper .center-content .text-logo {
-      font-size: 3.5em; }
+      font-size: 3.5em;
+      margin-bottom: 36px; }
       section.wraper .center-content .text-logo img {
-        width: 50px; }
+        position: relative;
+        top: 15px;
+        width: 60px; }
       section.wraper .center-content .text-logo span {
+        letter-spacing: 5px;
         margin-bottom: 50px; }
       section.wraper .center-content .text-logo .lef {
         padding-right: 20px; }
       section.wraper .center-content .text-logo .righ {
-        padding-left: 20px; }
+        padding-left: 25px; }
+    section.wraper .center-content .text {
+      font-family: 'KeplerStd-Scn';
+      text-align: center;
+      font-size: 1.5em;
+      letter-spacing: 2px;
+      max-width: 500px;
+      margin-bottom: 30px; }
+    section.wraper .center-content .mail {
+      font-size: 2em; }
+      section.wraper .center-content .mail a {
+        text-decoration: none;
+        color: #B14E2F;
+        letter-spacing: 2px; }
   section.wraper .counter {
     position: absolute;
     top: 50px;
     right: 30px;
     font-size: 4em; }
+  section.wraper .logo2 {
+    width: 70px;
+    position: absolute;
+    bottom: 40px;
+    left: 35px; }
+  section.wraper .textito {
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 40px;
+    right: 35px; }
