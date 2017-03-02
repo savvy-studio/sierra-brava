@@ -1,13 +1,14 @@
 @font-face {
-  font-family: 'bauer';
+  font-family: 'LeagueGothic';
+  src: url('../fonts/LeagueGothic.eot?#iefix') format('embedded-opentype'),  url('../fonts/LeagueGothic.woff') format('woff'), url('../fonts/LeagueGothic.ttf')  format('truetype'), url('../fonts/LeagueGothic.svg#LeagueGothic') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/bauer.otf) format('otf');
 }
 
 @font-face {
-  font-family: 'sharp';
+  font-family: 'KeplerStd-Scn';
+  src: url('../fonts/KeplerStd-Scn.eot?#iefix') format('embedded-opentype'),  url('../fonts/KeplerStd-Scn.otf')  format('opentype'),
+	     url('../fonts/KeplerStd-Scn.woff') format('woff'), url('../fonts/KeplerStd-Scn.ttf')  format('truetype'), url('../fonts/KeplerStd-Scn.svg#KeplerStd-Scn') format('svg');
+  font-weight: normal;
   font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sharp.otf) format('otf');
 }

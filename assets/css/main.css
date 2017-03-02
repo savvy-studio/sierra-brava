@@ -1,14 +1,14 @@
 @font-face {
-  font-family: 'bauer';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/bauer.otf) format("otf"); }
+  font-family: 'LeagueGothic';
+  src: url("../fonts/LeagueGothic.eot?#iefix") format("embedded-opentype"), url("../fonts/LeagueGothic.woff") format("woff"), url("../fonts/LeagueGothic.ttf") format("truetype"), url("../fonts/LeagueGothic.svg#LeagueGothic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-  font-family: 'sharp';
-  font-style: normal;
-  font-weight: 400;
-  src: url(../fonts/sharp.otf) format("otf"); }
+  font-family: 'KeplerStd-Scn';
+  src: url("../fonts/KeplerStd-Scn.eot?#iefix") format("embedded-opentype"), url("../fonts/KeplerStd-Scn.otf") format("opentype"), url("../fonts/KeplerStd-Scn.woff") format("woff"), url("../fonts/KeplerStd-Scn.ttf") format("truetype"), url("../fonts/KeplerStd-Scn.svg#KeplerStd-Scn") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -192,6 +192,8 @@ th {
   padding: 0; }
 
 body {
+  font-family: 'LeagueGothic';
+  color: #B14E2F;
   background-color: white;
   font-size: 10px;
   overflow-x: hidden;
@@ -311,3 +313,32 @@ input[type="button"] {
     color: #333;
     border-color: #888;
     outline: 0; }
+
+section.wraper {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/SB_background_04.jpg);
+  background-position: center;
+  background-size: cover; }
+  section.wraper .center-content {
+    position: relative !important;
+    top: 500px;
+    background: pink; }
+    section.wraper .center-content .logo {
+      width: 450px; }
+    section.wraper .center-content .text-logo {
+      font-size: 3.5em; }
+      section.wraper .center-content .text-logo img {
+        width: 50px; }
+      section.wraper .center-content .text-logo span {
+        margin-bottom: 50px; }
+      section.wraper .center-content .text-logo .lef {
+        padding-right: 20px; }
+      section.wraper .center-content .text-logo .righ {
+        padding-left: 20px; }
+  section.wraper .counter {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    font-size: 4em; }
