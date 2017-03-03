@@ -370,7 +370,8 @@ section.wraper {
     position: absolute;
     top: 50px;
     right: 30px;
-    font-size: 4em; }
+    font-size: 4em;
+    letter-spacing: 3px; }
   section.wraper .logo2 {
     width: 70px;
     position: absolute;
